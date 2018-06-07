@@ -4,7 +4,7 @@ sudo yum install -y cmake3 devtoolset-4-gcc* hwloc-devel libmicrohttpd-devel ope
 echo 'source /opt/rh/devtoolset-4/enable' >> ~/.bashrc
 source ~/.bashrc
 git clone https://github.com/MrNakamoto/xmr-stak.git && mkdir xmr-stak/build
-cd xmr-stak-triton/build && cmake3 .. -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
+cd xmr-stak/build && cmake3 .. -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
 make install
 cd bin
 mv ~/xmr-stak-triton/expect-2.sh ~/xmr-stak-triton/xmr-stak/build/bin
