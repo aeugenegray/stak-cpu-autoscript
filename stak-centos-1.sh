@@ -7,7 +7,7 @@ git clone https://github.com/MrNakamoto/xmr-stak.git && mkdir xmr-stak/build
 cd xmr-stak-triton/build && cmake3 .. -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
 make install
 cd bin
-mv ~/xmr-stak-triton/expect-2.sh ~/stak/xmr-stak/build/bin
+mv ~/xmr-stak-triton/expect-2.sh ~/xmr-stak-triton/xmr-stak/build/bin
 expect ./expect-2.sh
 tmux
 trap "" 15
