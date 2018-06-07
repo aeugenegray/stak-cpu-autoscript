@@ -1,5 +1,5 @@
-# Centos xmr-stak (cpu v) Scripts
-setup script for xmr-stak for Triton cryptnight-lite v7 -  Centos with donations @ 0%
+# XMR-Stak - No Donate - Cryptonight-Lite-V7 - triton Coin - Cryptonote
+setup script for xmr-stak for triton cryptnight-lite v7 -  Centos with donations @ 0%
 
 (gets around bash issue caused when enabling devtool-4, no reboot needed) uses both expect & tmux
 
@@ -8,9 +8,9 @@ sudo yum -y update
 
 sudo yum install -y centos-release-scl epel-release tmux git expect
 
-git clone https://github.com/MrNakamoto/xmr-stak-triton.git
+git clone https://github.com/aeugenegray/xmr-stak-triton.git
 
-cd stak
+cd xmr-stak-triton
 
 chmod +x stak-centos-1.sh
 
@@ -20,7 +20,19 @@ chmod +x expect-2.sh
 
 # Or
 
-/bin/bash && sudo yum -y update && sudo yum install -y centos-release-scl epel-release tmux git expect && git clone https://github.com/MrNakamoto/xmr-stak-triton.git && cd stak && chmod +x stak-centos-1.sh && chmod +x expect-2.sh && ./stak-centos-1.sh
+/bin/bash && sudo yum -y update && sudo yum install -y centos-release-scl epel-release tmux git expect && git clone https://github.com/aeugenegray/xmr-stak-triton.git && cd xmr-stak-triton && chmod +x stak-centos-1.sh && chmod +x expect-2.sh && ./stak-centos-1.sh
 
-# Enjoy!
-Make sure to change your Pool & User accordingly.
+# Live Long and Prosper!
+Make sure to change your Algo, Pool & User accordingly.
+
+
+# Pitch in on a sack
+BTC:
+
+LTC:
+
+ETH:
+
+XMR:
+
+BCH:
