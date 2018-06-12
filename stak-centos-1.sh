@@ -11,6 +11,4 @@ mv ~/xmr-stak-triton/expect-2.sh ~/xmr-stak-triton/xmr-stak/build/bin
 expect ./expect-2.sh
 tmux
 trap "" 15
-./xmr-stak --currency cryptonight_lite_v7 -o triton.clevery.xyz:9201 -u Tw1Wf4BYraTYsWMA7SRiQbTLHpzoVueedCsDBjXAF6tZC9Fjjw7s1pnhTfMjeAMcZJ7JMKipyfSTYdRiAAagUNae28hB14UFA -p x
-
 
