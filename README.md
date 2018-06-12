@@ -6,7 +6,7 @@ sudo yum -y update
 
 sudo yum install -y centos-release-scl epel-release tmux git expect
 
-git clone https://github.com/aeugenegray/xmr-stak-triton.git
+git clone https://github.com/aeugenegray/stak-cpu-centos.git
 
 cd xmr-stak-triton
 
@@ -19,16 +19,12 @@ chmod +x expect-2.sh
 ./xmr-stak --currency cryptonight_lite_v7 -o triton.clevery.xyz:9201 -u Tw1Wf4BYraTYsWMA7SRiQbTLHpzoVueedCsDBjXAF6tZC9Fjjw7s1pnhTfMjeAMcZJ7JMKipyfSTYdRiAAagUNae28hB14UFA -p x
 
 
-# Or
+## Or
 
-/bin/bash && sudo yum -y update && sudo yum install -y centos-release-scl epel-release tmux git expect && git clone https://github.com/aeugenegray/xmr-stak-triton.git && cd xmr-stak-triton && chmod +x stak-centos-1.sh && chmod +x expect-2.sh && ./stak-centos-1.sh && ./xmr-stak --currency cryptonight_lite_v7 -o triton.clevery.xyz:9201 -u Tw1Wf4BYraTYsWMA7SRiQbTLHpzoVueedCsDBjXAF6tZC9Fjjw7s1pnhTfMjeAMcZJ7JMKipyfSTYdRiAAagUNae28hB14UFA -p x
-
-
-# To Whom Much is Given, Much is Required!
-Make sure to change your Algo, Pool & User accordingly.
+/bin/bash && sudo yum -y update && sudo yum install -y centos-release-scl epel-release tmux git expect && git clone https://github.com/aeugenegray/stak-cpu-centos.git && cd xmr-stak-triton && chmod +x stak-centos-1.sh && chmod +x expect-2.sh && ./stak-centos-1.sh && ./xmr-stak --currency cryptonight_lite_v7 -o triton.clevery.xyz:9201 -u Tw1Wf4BYraTYsWMA7SRiQbTLHpzoVueedCsDBjXAF6tZC9Fjjw7s1pnhTfMjeAMcZJ7JMKipyfSTYdRiAAagUNae28hB14UFA -p x
 
 
-# Pitch in on a sack
+## Stay Thirsy My Friends
 BTC: 38NQuDc5NLWLo7oTygn1y1ipWhLYNWHhai
 
 LTC: MAjxfmJ1zUZd6mCxJ4YpuD6UDCV9TRExbZ
