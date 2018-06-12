@@ -1,6 +1,4 @@
-# XMR-Stak - No Donate - Cryptonight-Lite-V7 - triton Coin - Cryptonote
-setup script for xmr-stak for triton cryptnight-lite v7 -  Centos with donations @ 0%
-
+# XMR-Stak - Auto Install Script Centos - Cryptonote
 (gets around bash issue caused when enabling devtool-4, no reboot needed) uses both expect & tmux
 
 # Code
