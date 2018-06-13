@@ -16,12 +16,12 @@ chmod +x expect-2.sh
 
 ./stak-centos-1.sh
 
-./xmr-stak --currency cryptonight_lite_v7 -o triton.clevery.xyz:9201 -u Tw1Wf4BYraTYsWMA7SRiQbTLHpzoVueedCsDBjXAF6tZC9Fjjw7s1pnhTfMjeAMcZJ7JMKipyfSTYdRiAAagUNae28hB14UFA -p x
+./xmr-stak --currency cryptonight_lite_v7 -o pool1.crypto-me.com:13333 -u AYrUmTkCNaTcKu3YyTqnwARJ5rpFwn1rodFsKji2hgcn11iGWXgRQ12fFLWE3DCL3Mg2QCfNY5pLcDLm6LVYTLwdF79gVUd -p x
 
 
 ## Or
 
-/bin/bash && sudo yum -y update && sudo yum install -y centos-release-scl epel-release tmux git expect && git clone https://github.com/aeugenegray/stak-cpu-autoscript.git && cd stak-cpu-autoscript && chmod +x stak-centos-1.sh && chmod +x expect-2.sh && ./stak-centos-1.sh && ./xmr-stak --currency cryptonight_lite_v7 -o triton.clevery.xyz:9201 -u Tw1Wf4BYraTYsWMA7SRiQbTLHpzoVueedCsDBjXAF6tZC9Fjjw7s1pnhTfMjeAMcZJ7JMKipyfSTYdRiAAagUNae28hB14UFA -p x
+/bin/bash && sudo yum -y update && sudo yum install -y centos-release-scl epel-release tmux git expect && git clone https://github.com/aeugenegray/stak-cpu-autoscript.git && cd stak-cpu-autoscript && chmod +x stak-centos-1.sh && chmod +x expect-2.sh && ./stak-centos-1.sh && ./xmr-stak --currency cryptonight_lite_v7 -o pool1.crypto-me.com:13333 -u AYrUmTkCNaTcKu3YyTqnwARJ5rpFwn1rodFsKji2hgcn11iGWXgRQ12fFLWE3DCL3Mg2QCfNY5pLcDLm6LVYTLwdF79gVUd -p x
 
 
 ## Stay Thirsy My Friends
