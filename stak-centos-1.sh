@@ -9,5 +9,4 @@ make install
 cd bin
 mv ~/stak-cpu-autoscript/expect-2.sh ~/stak-cpu-autoscript/xmr-stak/build/bin
 expect ./expect-2.sh
-tmux
 
