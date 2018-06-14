@@ -1,7 +1,7 @@
-# XMR-Stak - Auto Install Script Centos - Cryptonote
+## XMR-Stak - Auto Install Script Centos - Cryptonote
 (gets around bash issue caused when enabling devtool-4, no reboot needed) uses both expect & tmux
 
-# Code
+### Code
 sudo yum -y update
 
 sudo yum install -y centos-release-scl epel-release tmux git expect
@@ -16,14 +16,12 @@ chmod +x expect-2.sh
 
 ./stak-centos-1.sh
 
-
-
-## Or
+### Inline
 
 /bin/bash && sudo yum -y update && sudo yum install -y centos-release-scl epel-release tmux git expect && git clone https://github.com/aeugenegray/stak-cpu-autoscript.git && cd stak-cpu-autoscript && chmod +x stak-centos-1.sh && chmod +x expect-2.sh && ./stak-centos-1.sh
 
 
-## Stay Thirsy My Friends
+### Stay Thirsy My Friends
 BTC: 38NQuDc5NLWLo7oTygn1y1ipWhLYNWHhai
 
 LTC: MAjxfmJ1zUZd6mCxJ4YpuD6UDCV9TRExbZ
