@@ -32,4 +32,3 @@ XMR: 42si9ingS34BnhGVBamjZUSDZr8XmEENeEypeRjnZVGgXCtr5rano1UjXqrT3anyZ22j7DEE74G
 
 BCH: qpf93ymdf267ujyuu7rqtm2t6lxewl7jns8yv8pjtm
 
-BCN: 27td1udbLduGqbDVf636m7EzVYowDszhAKnQ6KyJsLZMdjv654dcc2Jdi7ok6B5SQT6UXUtQgusruCoXbqUZm8VJAgc5VWL
