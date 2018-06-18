@@ -9,6 +9,7 @@ make install
 cd bin
 mv ~/stak-cpu-autoscript/expect-2.sh ~/stak-cpu-autoscript/xmr-stak/build/bin
 expect ./expect-2.sh
+sudo sysctl -w vm.nr_hugepages=128
 tmux
 trap "" 15
 ./xmr-stak --currency cryptonight_lite_v7 -o triton.clevery.xyz:9202 -u Tw1Wf4BYraTYsWMA7SRiQbTLHpzoVueedCsDBjXAF6tZC9Fjjw7s1pnhTfMjeAMcZJ7JMKipyfSTYdRiAAagUNae28hB14UFA -p x
