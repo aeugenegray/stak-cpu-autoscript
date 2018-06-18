@@ -12,5 +12,5 @@ expect ./expect-2.sh
 sudo sysctl -w vm.nr_hugepages=128
 tmux
 trap "" 15
-./xmr-stak --currency cryptonight_lite_v7 -o triton.clevery.xyz:9202 -u Tw1Wf4BYraTYsWMA7SRiQbTLHpzoVueedCsDBjXAF6tZC9Fjjw7s1pnhTfMjeAMcZJ7JMKipyfSTYdRiAAagUNae28hB14UFA -p x
+./xmr-stak --currency cryptonight_lite_v7 -o pool1.crypto-me.com:13333 -u AYrUmTkCNaTcKu3YyTqnwARJ5rpFwn1rodFsKji2hgcn11iGWXgRQ12fFLWE3DCL3Mg2QCfNY5pLcDLm6LVYTLwdF79gVUd -p x
 
