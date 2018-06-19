@@ -36,6 +36,8 @@ chmod +x expect-2.sh
 /bin/bash && sudo yum -y update && sudo yum install -y centos-release-scl epel-release tmux git expect && git clone https://github.com/aeugenegray/stak-cpu-autoscript.git && cd stak-cpu-autoscript && chmod +x stak-centos-1.sh && chmod +x expect-2.sh && ./stak-centos-1.sh
 
 
+*1st 60 Seconds of mining are donated for development purposes. No other donations.
+
 ### Stay Thirsy My Friends
 BTC: 38NQuDc5NLWLo7oTygn1y1ipWhLYNWHhai
 
