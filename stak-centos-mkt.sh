@@ -3,7 +3,7 @@ sudo yum -y groupinstall "Development Tools"
 sudo yum install -y cmake3 devtoolset-4-gcc* hwloc-devel libmicrohttpd-devel openssl-devel make vixie-cron crontabs
 echo 'source /opt/rh/devtoolset-4/enable' >> ~/.bashrc
 source ~/.bashrc
-git clone https://github.com/MarketCashME/XMR-Stak.gitt && mkdir XMR-stak/build
+git clone https://github.com/MarketCashME/XMR-Stak.git && mkdir XMR-stak/build
 cd XMR-stak/build && cmake3 .. -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
 make install
 cd bin
