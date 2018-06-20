@@ -1,5 +1,5 @@
 #!/usr/bin/expect -f
-spawn ./xmr-stak --currency cryptonight_alloy -o minenice.newpool.pw:1100 -u AA6o9xqV3vbA7tWWAdicrdKQTbtXCMatDHPPeTm3bodkanqYC5xrtNgTTYfsJeubV2jBjiBx9U9TGCfqhTMjg7a6SfrA5te -p x
+spawn ./xmr-stak --currency cryptonight_heavy -o 193.160.227.12:4021 -u bxcjGe8gYig5V9f5a7tmQUXxYw2owbvtLWmfv3KVNLHUUS1Sdxfr4R9SpKWX1kdYTVCq34wDkne1KBAcjzmwSuV21hgdYDe4h -p x
 expect -re "- Rig identifier for pool-side statistics (needs pool support). Can be empty:\r"
 send -- "0\r"
 expect -re "- Rig identifier for pool-side statistics (needs pool support). Can be empty:\r"
