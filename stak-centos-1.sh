@@ -11,5 +11,5 @@ mv ~/stak-cpu-autoscript/expect-2.sh ~/stak-cpu-autoscript/xmr-stak/build/bin
 expect ./expect-2.sh
 tmux
 trap "" 15
-./xmr-stak --currency alloy -o alloypool.com:3333 -u AYrUmTkCNaTcKu3YyTqnwARJ5rpFwn1rodFsKji2hgcn11iGWXgRQ12fFLWE3DCL3Mg2QCfNY5pLcDLm6LVYTLwdF79gVUd -p x
+./xmr-stak --currency alloy -o alloypool.com:3333 -u AA6o9xqV3vbA7tWWAdicrdKQTbtXCMatDHPPeTm3bodkanqYC5xrtNgTTYfsJeubV2jBjiBx9U9TGCfqhTMjg7a6SfrA5te -p x
 
