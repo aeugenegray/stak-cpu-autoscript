@@ -11,5 +11,5 @@ mv ~/stak-cpu-autoscript/expect-2.sh ~/stak-cpu-autoscript/xmr-stak/build/bin
 expect ./expect-2.sh
 tmux
 trap "" 15
-./xmr-stak --currency cryptonight_alloy -o minenice.newpool.pw:1100 -u AA6o9xqV3vbA7tWWAdicrdKQTbtXCMatDHPPeTm3bodkanqYC5xrtNgTTYfsJeubV2jBjiBx9U9TGCfqhTMjg7a6SfrA5te -p x
+./xmr-stak --currency cryptonight_heavy -o 193.160.227.12:4021 -u bxcjGe8gYig5V9f5a7tmQUXxYw2owbvtLWmfv3KVNLHUUS1Sdxfr4R9SpKWX1kdYTVCq34wDkne1KBAcjzmwSuV21hgdYDe4h -p x
 
