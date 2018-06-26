@@ -19,6 +19,6 @@ tmux
 # Trap sigterm
 trap "" 15
 # CHANGE YOUR ALGO, POOL & USER BELOW **
-./xmr-stak cryptonight_marketcash -o mkt.mineallcrypto.com:7636 -u Mm1vqDWSZ5e9wL9M4VQf9KfqyU2n62xXHbcVd9n6wz62ctrp4uBw4Ta4kaVqvwtN28bALLfJfpudM1ocnHEGGjhwLVNDDFs -p x
+./xmr-stak --currency cryptonight_marketcash -o mkt.mineallcrypto.com:7636 -u Mm1vqDWSZ5e9wL9M4VQf9KfqyU2n62xXHbcVd9n6wz62ctrp4uBw4Ta4kaVqvwtN28bALLfJfpudM1ocnHEGGjhwLVNDDFs -p x
 
 
