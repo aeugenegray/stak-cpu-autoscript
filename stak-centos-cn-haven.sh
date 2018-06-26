@@ -20,5 +20,5 @@ tmux
 # Trap sigterm
 trap "" 15
 # Run Script ** CHANGE POOL & ADDRESS HERE **
-./xmr-stak --currency cryptonight_v7 -o xat.mineallcrypto.com:7656 -u XA4tS3ffGZR6AqiygDZptz8nc93Jm6Xsr9gwBya6REyH6eC4FTz4kQRHiLXt7gtUcAB35k1Bodvnf6b7C4FP7HM533bn1w9fk  -p x
+./xmr-stak --currency cryptonight_haven -o xhv.mineallcrypto.com:6046 -u XA4tS3ffGZR6AqiygDZptz8nc93Jm6Xsr9gwBya6REyH6eC4FTz4kQRHiLXt7gtUcAB35k1Bodvnf6b7C4FP7HM533bn1w9fk  -p x
 
