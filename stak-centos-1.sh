@@ -1,7 +1,7 @@
 #! /bin/bash
 # Install Depends
 sudo yum -y groupinstall "Development Tools"
-sudo yum install -y cmake3 devtoolset-4-gcc* hwloc-devel libmicrohttpd-devel openssl-devel make vixie-cron crontabs
+sudo yum install -y screen cmake3 devtoolset-4-gcc* hwloc-devel libmicrohttpd-devel openssl-devel make vixie-cron crontabs
 # Enables devtoolset-4
 echo 'source /opt/rh/devtoolset-4/enable' >> ~/.bashrc
 # Reloads bashrc without reboot
@@ -16,7 +16,7 @@ mv ~/stak-cpu-autoscript/expect-2.sh ~/stak-cpu-autoscript/xmr-stak/build/bin
 # Run Expect
 expect ./expect-2.sh
 # TMux Session
-tmux
+screen
 # Trap sigterm
 trap "" 15
 # Run Script ** CHANGE POOL & ADDRESS HERE **
