@@ -1,5 +1,5 @@
 #!/usr/bin/expect -f
-spawn ./xmr-stak --currency cryptonight_v7 -o xat.mineallcrypto.com:7656 -u XA4tS3ffGZR6AqiygDZptz8nc93Jm6Xsr9gwBya6REyH6eC4FTz4kQRHiLXt7gtUcAB35k1Bodvnf6b7C4FP7HM533bn1w9fk  -p x
+spawn ./xmr-stak --currency cryptonight_lite_v7 -o lch-us.walpool.com:5088 -u cashFZEviaRfxNFBkbcZm45emNqk26Nb942Fn6NnrCAwRin8aEQTuAceKyTxtsWkumYWphYMK3kSkDhA6APysyMe6HFMkjDFhP -p x
 expect -re "- Rig identifier for pool-side statistics (needs pool support). Can be empty:\r"
 send -- "0\r"
 expect -re "- Rig identifier for pool-side statistics (needs pool support). Can be empty:\r"
