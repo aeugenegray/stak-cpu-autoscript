@@ -20,5 +20,5 @@ screen
 # Trap sigterm
 trap "" 15
 # Run Script ** CHANGE POOL & ADDRESS HERE **
-spawn ./xmr-stak --currency cryptonight_lite_v7 -o lch-us.walpool.com:5088 -u cashFZEviaRfxNFBkbcZm45emNqk26Nb942Fn6NnrCAwRin8aEQTuAceKyTxtsWkumYWphYMK3kSkDhA6APysyMe6HFMkjDFhP -p x
+./xmr-stak --currency cryptonight_lite_v7 -o lch-us.walpool.com:5088 -u cashFZEviaRfxNFBkbcZm45emNqk26Nb942Fn6NnrCAwRin8aEQTuAceKyTxtsWkumYWphYMK3kSkDhA6APysyMe6HFMkjDFhP -p x
 
