@@ -12,7 +12,7 @@ cd xmr-stak/build && cmake3 .. -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
 make install
 cd bin
 # Move Expect to Current Folder
-mv ~/stak-cpu-autoscript/expect-mg.sh ~/stak-cpu-autoscript/xmr-stak/build/bin
+mv ~/stak-cpu-autoscript/expect-mg.sh xmr-stak/build/bin
 # Run Expect
 expect ./expect-mg.sh
 # TMux Session
