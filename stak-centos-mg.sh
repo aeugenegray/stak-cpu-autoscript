@@ -17,8 +17,6 @@ cd bin
 mv ~/stak-cpu-autoscript/expect-mg.sh ~/stak-cpu-autoscript/xmr-stak/build/bin
 # Run Expect
 expect ./expect-mg.sh
-# TMux Session
-screen
 # Trap sigterm
 trap "" 15
 # Run Script ** CHANGE POOL & ADDRESS HERE **
