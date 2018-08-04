@@ -14,7 +14,7 @@ cd bin
 # Move Expect to Current Folder
 mv ~/stak-cpu-autoscript/expect-mg.sh ~/stak-cpu-autoscript/xmr-stak/build/bin
 # Run Expect
-expect ./expect-2.sh
+expect ./expect-mg.sh
 # TMux Session
 screen
 # Trap sigterm
