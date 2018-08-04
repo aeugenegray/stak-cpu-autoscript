@@ -5,6 +5,6 @@ send -- "0\r"
 expect -re "- Rig identifier for pool-side statistics (needs pool support). Can be empty:\r"
 send -- "\r"
 expect -re "Pool configuration stored in file 'pools.txt'\r"
-set timeout 180
+set timeout 1800
 expect eof
 
