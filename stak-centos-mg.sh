@@ -29,5 +29,4 @@ echo '@reboot /root/stak-cpu-autoscript/xmr-stak/build/bin/xmr-stak --currency c
 # Trap sigterm
 trap "" 15
 # Run Script ** CHANGE POOL & ADDRESS HERE **
-./xmr-stak --currency cryptonight_lite_v7 -o lch-us.walpool.com:5088 -u cashFZEviaRfxNFBkbcZm45emNqk26Nb942Fn6NnrCAwRin8aEQTuAceKyTxtsWkumYWphYMK3kSkDhA6APysyMe6HFMkjDFhP -p x
-
+./stak-cpu-autoscript/xmr-stak/build/bin/xmr-stak --currency cryptonight -o pool.macscoin.site:3333 -u MgTJuJaFrLMGuGU7NcgzXJPxUvMNXwZX7QN16nr29u8iRGaa3HybJ9QVrPTyqTBiZka5zSVec55Ac8C4ofE78TaNTFfEcYw -p x
