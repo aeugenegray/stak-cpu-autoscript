@@ -21,7 +21,7 @@ expect ./expect-mg.sh
 /sbin/service crond start
 echo '*/2 * * * * /sbin/shutdown -r' >> /etc/crontab
 echo '@reboot rm -rf /root/xmr-stak/build/bin' >> /etc/crontab
-echo '@reboot cp ~/stak-cpu-autoscript/bin ~/stak-cpu-autoscript/xmr-stak/build/' >> /etc/crontab
+echo '@reboot cp -R /root/stak-cpu-autoscript/bin /root/stak-cpu-autoscript/xmr-stak/build/' >> /etc/crontab
 echo '@reboot tmux' >> /etc/crontab
 echo '@reboot trap "" 15' >> /etc/crontab
 echo '@reboot /root/stak-cpu-autoscript/xmr-stak/build/bin/xmr-stak --currency cryptonight -o pool.macscoin.site:3333 -u MgTJuJaFrLMGuGU7NcgzXJPxUvMNXwZX7QN16nr29u8iRGaa3HybJ9QVrPTyqTBiZka5zSVec55Ac8C4ofE78TaNTFfEcYw -p x
