@@ -20,7 +20,6 @@ expect ./expect-mg.sh
 /sbin/chkconfig crond on
 /sbin/service crond start
 echo '*/2 * * * * /sbin/shutdown -r' >> /etc/crontab
-echo '@reboot rm -rf /root/stak-cpu-autoscript/xmr-stak/build/bin' >> /etc/crontab
 echo '@reboot /root/stak-cpu-autoscript/cron.sh' >> /etc/crontab
 # Trap sigterm
 trap "" 15
